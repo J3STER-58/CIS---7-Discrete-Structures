@@ -4,19 +4,19 @@
 
 // Worked with Rebecca Carter
 
-p -> q <=> q' -> p'  ||  Given
-p -> q <=> q" v p'   ||  Implication Law
-p -> q <=> q v p'    ||  Double Negation Law
-p -> q <=> p' v q    ||  Commutative Law
-p -> q <=> p -> q    ||  Implication Law
+p -> q <=> q' -> p'  Given               ||
+p -> q <=> q" v p'   Implication Law     ||
+p -> q <=> q v p'    Double Negation Law ||
+p -> q <=> p' v q    Commutative Law     ||
+p -> q <=> p -> q    Implication Law     ||
 
 ---------------------------------------------------------------
 
-(p -> r) ^ (q -> r) <=> (p v q) -> r   ||  Given
-(p' v r) ^ (q' v r) <=> (p v q) -> r   ||  Implication Law
-(p' ^ q') v r <=> (p v q) -> r         ||  Distributive Law
-(p v q)' v r <=> (p v q) -> r          ||  De Morgan's Law
-(p v q) -> r <=> (p v q) -> r          ||  Implication Law
+(p -> r) ^ (q -> r) <=> (p v q) -> r   Given            ||
+(p' v r) ^ (q' v r) <=> (p v q) -> r   Implication Law  ||
+(p' ^ q') v r <=> (p v q) -> r         Distributive Law ||
+(p v q)' v r <=> (p v q) -> r          De Morgan's Law  ||
+(p v q) -> r <=> (p v q) -> r          Implication Law  ||
 
 ---------------------------------------------------------------
 
