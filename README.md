@@ -1,1 +1,1 @@
-# CIS---7-Discrete-Structures
+# CIS-7-Discrete-Structures
