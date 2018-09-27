@@ -38,11 +38,20 @@ Part 1:
       
       
 Part 2: 
-
- a) ve by induction that 1 + 5 + 9 + ... + (4n-3) = n(2n-1)
- b) ve that for any positive integer number n, n^3 + 2n is divisible by 3
- Prove that for n >= 1, 9^n − 1 is divisible by 8 for all non-negative integers 
- Hint: 4^(3+1) = 4 * 4^3 Hint: If 9^n - 1 = 8m, then 9^n = 8m + 1
+ a) Prove by induction that 1 + 5 + 9 + ... + (4n-3) = n(2n-1)
+      - Base case: n = 1
+      - 1(2(1)-1) = 1
+      - 1(2-1) = 1
+      - 1(1) = 1
+      - 1 = 1 : Base case is true
+      - Assume n = k + 1
+      - 4(k+1) - 3 = (k+1)(2(k+1)-1
+      
+ 
+ b) Prove that for any positive integer number n, n^3 + 2n is divisible by 3
+ 
+ c) Prove that for n >= 1, 9^n − 1 is divisible by 8 for all non-negative integers 
+    Hint: 4^(3+1) = 4 * 4^3 Hint: If 9^n - 1 = 8m, then 9^n = 8m + 1
 
 
 
